@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default function Navbar() {
   return (
-    <div className='flex justify-between bg-blue-400 p-4 text-white w-screen'>
+    <div className='flex justify-between py-[30px] px-[50px] text-white w-screen'>
         <div className='w-1/2'>
             <img className='w-[199px] h-[64px]' src="./my-logo.png" alt="logo" />
         </div>

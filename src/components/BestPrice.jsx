@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function BestPrice() {
   return (
-    <div className='flex'>
-        <div className='w-1/2 p-14 flex flex-col justify-center items-end font-sans'>
+    <div className='flex my-8'>
+        <div className='w-1/2 py-14 pl-[50px] flex flex-col justify-center items-end font-sans'>
             <h1 className=' font-[400] text-[40px] text-[#31546d]'>BEST PRICE</h1>
             <h2 className=' font-[700] text-[64px] text-[#31546d]'>Agate Phone Grip</h2>
             <div className='flex justify-center items-center'>
@@ -15,10 +15,11 @@ export default function BestPrice() {
             </p>
             <button className="text-white bg-[#75cceb] py-1 px-3 rounded-[18px] w-[180px] h-[56px] font-semibold shadow-xl mt-8">BUY NOW</button>
         </div>
-        <div className='w-1/2'>
-            <div className='w-[744px] h-[744px] rounded-full shadow-[0px_0px_30px_rgba(0,0,0,0.03)] flex justify-center items-center'>
-                <div className='w-[570px] h-[570px] rounded-full shadow-[0px_0px_30px_rgba(0,0,0,0.1)] flex justify-center items-center'>
-                    <div className='w-[364px] h-[364px] rounded-full shadow-[0px_0px_30px_rgba(0,0,0,0.1)] flex justify-center items-center'>
+        <div className='w-1/2 overflow-hidden relative'>
+            <div className='w-[744px] h-[744px] flex justify-center items-center'>
+                <div className='w-[744px] h-[372px] absolute bg-[#fff3] -z-[5] shadow-[20px_20px_30px_rgba(0,0,0,0.03)] rounded-b-full translate-y-[50%]' ></div>
+                <div className='w-[570px] h-[570px] bg-white rounded-full shadow-[0px_0px_30px_rgba(0,0,0,0.1)] flex justify-center items-center'>
+                    <div className='w-[364px] h-[364px] bg-white rounded-full shadow-[0px_0px_30px_rgba(0,0,0,0.1)] flex justify-center items-center'>
                         <img src="./nut.png" alt="nut" />
                     </div>
                 </div>

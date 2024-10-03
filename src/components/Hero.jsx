@@ -7,9 +7,9 @@ import { FaCircle } from "react-icons/fa";
 
 export default function Hero() {
   return (
-    <div className='h-screen flex flex-col justify-center items-center bg-blue-300 w-screen'>
-    <div className="bg-blue-300 flex w-full ">
-        <div className='w-3/5 px-16 mt-32 flex flex-col items-start'>
+    <div className='flex flex-col justify-center items-center w-screen'>
+    <div className=" flex w-full ">
+        <div className='w-3/5 pl-[50px] mt-32 flex flex-col items-start'>
             <h1 className='text-white font-[400] text-[40px]'>Welcome to</h1>
             <h2 className='text-white font-[700] text-[64px]'>Pop Rock Crystal Shop!</h2>
             <h3 className='w-1/2 text-[16px] my-8 text-[#31546d] font-[400]'>Here you will find unique phone accessories, crystals, jewelry and more. Free shipping inside the U.S. and our phone grips come with a limited warranty. Enjoy!
